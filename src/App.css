@@ -1,0 +1,888 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: blue !important;
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(211 41 41 / 90%);
+}
+
+.navbar.scrolled {
+  background-color:#90d46b;
+}
+
+.image {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/74/321/299/line-oval-light-wallpaper-preview.jpg');
+  width: 100%;
+  height: 110vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+}
+
+.box h4 {
+  color: whitesmoke;
+  font-size: 31px;
+  font-weight: 400;
+
+}
+
+.box h1 {
+  color: whitesmoke;
+  font-weight: 900;
+  font-size: 60px;
+
+}
+
+.box h1 span {
+  color: black;
+  font-weight: 200;
+}
+
+.box p {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 9px 22px;
+  background-color: #1c2900;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+
+  &:hover {
+    color: white;
+
+  }
+
+
+}
+
+.btn1 {
+  border: 2px solid #1c2900;
+  padding: 8px 22px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  background: none;
+
+  &:hover {
+    background-color: #1c2900;
+    color: white;
+  }
+}
+
+.cut {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/74/321/299/line-oval-light-wallpaper-preview.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px;
+  height: 36vh;
+  width: 100%;
+
+
+}
+
+.cut p {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.cut img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+
+}
+
+.line {
+  border: 1px solid rgb(197, 187, 187);
+  padding: 34px 130px;
+
+}
+
+.line img {
+  width: 60px;
+}
+
+.desc img {
+  height: 600px;
+  width: 600px;
+
+
+}
+
+.desc1 {
+  margin-top: 180px;
+ 
+}
+.desc1.purple{
+   background-color:#c0f0a6;
+}
+
+.desc1 h1 span {
+  color: rgb(90, 207, 90);
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.desc1 h1 {
+  font-weight: 200;
+}
+
+.desc1 p {
+  color: grey;
+}
+
+.desc1 button {
+  border: 1px solid #90bc79;
+  border-radius: 5px;
+  padding: 11px 25px;
+  color: whitesmoke;
+  background-color: #90bc79;
+  font-size: 15px;
+
+  &:hover {
+    background-color: rgb(149, 226, 149);
+    color: whitesmoke;
+  }
+
+}
+
+.info {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/74/321/299/line-oval-light-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+  padding: 40px;
+
+}
+
+.info1 {
+  margin-top: 70px;
+
+}
+
+.info2 {
+  border: 1px solid white;
+  background-color: whitesmoke;
+  height: 550px;
+  width: 600px;
+  margin-top: 140px;
+}
+
+.line1 {
+  border: 1px solid rgb(230, 209, 209);
+  height: 500px;
+  text-align: center;
+
+
+}
+
+.line1 h1 {
+  color: rgb(178, 211, 119);
+  font-weight: 800;
+  font-size: 58px;
+
+}
+
+.line1 p {
+  color: rgb(139, 138, 138);
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.date {
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.info2.green{
+  background-color: #f1fdac;
+}
+
+.date h1 {
+  color: black;
+  font-weight: 700;
+  font-size: 50px;
+
+}
+
+.line1 button {
+  padding: 5px 25px;
+  color: whitesmoke;
+  background-color: #90bc79;
+  border: 1px solid rgb(178, 206, 130);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.date p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small h1 {
+  font-weight: 200;
+  text-align: center;
+}
+
+.small h1 span {
+  color: rgb(143, 235, 143);
+  font-size: 35px;
+  font-weight: 800;
+
+}
+
+.small p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(175, 166, 166);
+  margin: 0px 28rem;
+  text-align: center;
+}
+
+hr {
+  width: 80px;
+  color: rgb(250, 238, 238);
+  border: 1px solid #e3cece;
+}
+
+.style h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.style p {
+  font-size: 15px;
+  color: grey;
+}
+
+.mom {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/74/321/299/line-oval-light-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+  padding: 40px;
+  height: 100vh;
+}
+
+.over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.small1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  padding-top: 40px;
+  margin: 0px 23rem;
+  text-align: center;
+}
+
+.small1 h1 span {
+  color: whitesmoke;
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.small1 p {
+  padding-top: 25px;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.over h2 {
+  font-size: 23px;
+  font-weight: 500;
+  color: whitesmoke;
+  text-align: center;
+
+}
+
+.over p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px 23px;
+  color: whitesmoke;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.price p {
+  margin: 0px 28rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: grey;
+}
+
+.price h1 span {
+  color: #90bc79;
+  font-size: 47px;
+  font-weight: 600;
+}
+
+.price h1 {
+  font-weight: 200;
+}
+
+.fit {
+  border: 2px solid rgb(255, 249, 249);
+  height: 590px;
+  width: 300px;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 5px rgb(241, 223, 223);
+    transition: all 0.1s ease-in;
+  }
+}
+
+.fit img {
+  margin: 21px 58px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.fit1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fit1 p {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.fit h5 {
+  font-size: 25px;
+  font-weight: 800;
+  color: #8ee48e;
+}
+
+.fit1 button {
+  border: 2px solid #8ee48e;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 5px 16px;
+  font-weight: 500;
+  color: #a8e7a8;
+  background-color: white;
+
+  &:hover {
+    background-color: #8ee48e;
+    color: white;
+  }
+}
+
+.move {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/74/321/299/line-oval-light-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.move p {
+  margin: 0px 24rem;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.move h1 {
+  margin: 13px 21rem;
+  text-align: center;
+  font-weight: 200;
+
+}
+
+.move h1 span {
+  color: whitesmoke;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.move h2 {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.round img {
+  border-radius: 50%;
+
+}
+
+.round1 {
+  border: 2px solid rgb(212, 206, 206);
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article p {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 20rem;
+  text-align: center;
+  color: gray;
+}
+
+.article h1 span {
+  color: rgb(140, 231, 140);
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.article h1 {
+  font-weight: 200;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.news {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/74/321/299/line-oval-light-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+  padding: 40px;
+  height: 50vh;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+.news h1 span {
+  color: white;
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.news h1 {
+  font-weight: 200;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.news p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+.last h1 {
+  color: #8bcd8b;
+  font-size: 42px;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 21px;
+}
+
+.last p {
+
+  color: rgb(138, 133, 133);
+  font-weight: 400;
+}
+
+.last1 h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+
+.last1 dl dd {
+  color: rgb(138, 133, 133);
+  font-weight: 400;
+  padding: 5px;
+}
+
+.last1 p {
+  color: rgb(138, 133, 133);
+  font-weight: 400;
+}
+
+.footer {
+  border: 3px solid #ffffff;
+  box-shadow: 15px 0px 30px #dfd9d9;
+  /* height: 700px; */
+
+
+}
+
+.final1 p {
+  /* text-align:center; */
+  color: rgb(138, 133, 133);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.final p {
+  color: rgb(138, 133, 133);
+}
+
+.cute img {
+  height: 250px;
+  width: 350px;
+  margin: 18px 29px;
+
+}
+
+.cute {
+  border: 2px solid rgb(238, 234, 234);
+  box-shadow: 0px 5px 5px rgb(241, 223, 223);
+  padding: 25px 10px;
+
+
+  &:hover {
+
+    transform: scale(1.02);
+    box-shadow: 0px 5px 5px rgb(241, 223, 223);
+    transition: all 0.1s ease-in;
+  }
+
+}
+
+.cute h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 15px;
+
+}
+
+.cute p {
+  color: rgb(138, 133, 133);
+  margin: 15px;
+}
+
+.cute button {
+  border: 3px solid #90bc79;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 5px 16px;
+  font-weight: 500;
+  color: #90bc79;
+  margin: 0px 15px;
+  background-color: transparent;
+
+  &:hover {
+
+    background-color: #90bc79;
+
+    color: white;
+  }
+}
+
+/* .animationimage{
+  animation: beat1 1.10s infinite alternate;
+}
+@keyframes beat {
+  to{transform: scale3d(1.04178, 1.04178, 1.04178);}
+  
+} */
+.animationimage1 {
+  animation: beat1 1.10s infinite alternate;
+  padding: 5rem;
+}
+
+@keyframes beat1 {
+  to {
+    transform: scale3d(1.04178, 1.04178, 1.04178);
+  }
+
+}
+
+.animationimage2 {
+  animation: beat1 1.10s infinite alternate;
+  padding: 4rem;
+}
+
+@keyframes beat2 {
+  to {
+    transform: scale3d(1.04178, 1.04178, 1.04178);
+  }
+
+}
+
+.animationimage3 {
+  animation: beat1 1.10s infinite alternate;
+  padding: 4rem;
+}
+
+@keyframes beat3 {
+  to {
+    transform: scale3d(1.04178, 1.04178, 1.04178);
+  }
+
+}
+
+.animationimage4 {
+  animation: beat4 1.10s infinite alternate;
+}
+
+@keyframes beat4 {
+  to {
+    transform: scale3d(1.04178, 1.04178, 1.04178);
+  }
+
+}
+
+.nav-item a {
+  color: #1c2900;
+  text-transform: capitalize;
+}
+
+.nav-item1 a {
+  color: white;
+  text-transform: capitalize;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+
+}
+
+.but button {
+  padding: 10px 25px;
+  color: white;
+  background-color: rgb(8, 41, 8);
+  border-radius: 5px;
+  /* border-color: #90BC79; */
+  border: 2px solid rgb(8, 41, 8);
+}
+
+.navbar {
+  background-image: url
+    /* ('https://c4.wallpaperflare.com/wallpaper/74/321/299/line-oval-light-wallpaper-preview.jpg'); */
+  ;
+  background-color: #abe48c;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.itag input:focus-visible {
+  border: 1px solid #ffffffcb;
+  outline-style: solid;
+  outline-color: #ffffffcb;
+  outline-width: 2px;
+
+}
+
+.itag i {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  padding: 35px;
+  margin-left: 50%;
+
+}
+
+.itag input {
+  width: 60%;
+  height: 50px;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid white;
+  background-color: #90bc79;
+  position: relative;
+  border-radius: 5px;
+}
+
+.hair {
+  margin-top: 30px;
+  padding: 30px;
+  border: 2px solid rgba(128, 128, 128, 0.658);
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.1s ease-in;
+    box-shadow: 0px 2px 6px;
+  }
+}
+
+.hair img {
+  width: 330px;
+  height: 220px;
+  margin: 10px 15px;
+}
+
+.hair h4 {
+  margin-top: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: start;
+  text-transform: capitalize;
+}
+
+.cake h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.cake h1 span {
+  color: #90bc79;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.cake p {
+  color: grey;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 10px 21rem;
+}
+
+.cake {
+  margin-top: 60px;
+}
+
+.hair button {
+  padding: 10px 20px;
+  color: #90bc79;
+  text-transform: capitalize;
+  border: 3px solid #90bc79;
+  border-radius: 5px;
+  background-color: white;
+
+  &:hover {
+    color: white;
+    background-color: #90bc79;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in;
+  }
+}
+.dis{
+  font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.dis1{
+  font-size: 14px;
+    font-weight: 400;
+    color: cadetblue;
+    text-align: center;
+}
